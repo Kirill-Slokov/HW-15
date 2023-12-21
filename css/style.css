@@ -1,0 +1,45 @@
+.container {
+  width: 1000px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.item {
+  padding: 15px;
+  flex-basis: 350px;
+}
+.holder {
+  display: flex;
+  border: 3px solid black;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.item-1 {
+  background-color: blue;
+  flex-grow: 1.5;
+}
+.item-2 {
+  background-color: beige;
+  flex-basis: 250px;
+  order: 3;
+  flex-grow: 1;
+}
+.item-3 {
+  background-color: aqua;
+  flex-basis: 250px;
+  order: 4;
+  flex-grow: 1;
+}
+.item-4 {
+  background-color: blueviolet;
+  flex-basis: 250px;
+  order: 5;
+  flex-grow: 1;
+}
+.item-5 {
+  background-color: brown;
+  order: 2;
+  flex-grow: 1.5;
+}
